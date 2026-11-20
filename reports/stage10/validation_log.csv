@@ -1,0 +1,2 @@
+opened_utc,purpose,models,choice
+2026-11-16T05:15:45,Stage 10 final comparison (single look; models fixed beforehand),"zero,imb_only,ols_full,ridge_pruned,lgb","{""featureset_check"": {""pruned"": 0.2513209398002956, ""full"": 0.2515484141551793}, ""ridge_lambda"": 1e-06, ""lgb_config"": ""B"", ""lgb_iters"": 100, ""lgb_feats"": ""pruned""}"

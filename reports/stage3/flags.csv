@@ -1,0 +1,2296 @@
+flag,instrument,date,meaning
+book_gap,1000PEPEUSDC_PERP,2026-03-26,book missing > 100 grid points (> 50 s)
+book_gap,1000PEPEUSDC_PERP,2026-07-28,book missing > 100 grid points (> 50 s)
+book_gap,1000PEPEUSDT_PERP,2026-07-28,book missing > 100 grid points (> 50 s)
+book_gap,BTCFDUSD_SPOT,2025-11-25,book missing > 100 grid points (> 50 s)
+book_gap,BTCUSD1_SPOT,2025-12-04,book missing > 100 grid points (> 50 s)
+book_gap,BTCUSD1_SPOT,2026-01-15,book missing > 100 grid points (> 50 s)
+book_gap,BTCUSDT_PERP,2026-03-26,book missing > 100 grid points (> 50 s)
+book_gap,BTCUSDT_PERP,2026-07-28,book missing > 100 grid points (> 50 s)
+book_gap,ETHUSD1_SPOT,2025-12-11,book missing > 100 grid points (> 50 s)
+book_gap,ETHUSDT_PERP,2026-03-26,book missing > 100 grid points (> 50 s)
+book_gap,ETHUSDT_PERP,2026-07-28,book missing > 100 grid points (> 50 s)
+book_gap,SOLFDUSD_SPOT,2025-11-25,book missing > 100 grid points (> 50 s)
+book_gap,SOLUSDT_PERP,2026-07-28,book missing > 100 grid points (> 50 s)
+book_gap,SOLUSDT_SPOT,2026-08-08,book missing > 100 grid points (> 50 s)
+book_nan_values,1000PEPEUSDC_PERP,2025-10-10,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,BTCFDUSD_SPOT,2025-09-24,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,BTCFDUSD_SPOT,2025-10-10,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,BTCFDUSD_SPOT,2025-10-11,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,BTCUSD1_SPOT,2025-12-15,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,BTCUSD1_SPOT,2026-02-23,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,BTCUSDC_SPOT,2025-10-10,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,ETHFDUSD_SPOT,2025-09-24,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,ETHFDUSD_SPOT,2025-10-10,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,ETHFDUSD_SPOT,2025-10-11,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,ETHUSD1_SPOT,2025-12-15,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,ETHUSD1_SPOT,2026-02-23,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,ETHUSDC_SPOT,2025-10-10,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,SOLFDUSD_SPOT,2025-09-24,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,SOLFDUSD_SPOT,2025-10-10,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,SOLFDUSD_SPOT,2025-10-11,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_nan_values,SOLUSDC_SPOT,2025-10-10,NaN prices/buckets (expected on stablecoin-depeg days: PDF null rule)
+book_off_tick,BTCUSD1_SPOT,2025-12-04,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,ETHUSD1_SPOT,2025-12-11,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2025-11-18,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2025-11-23,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2025-11-24,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2025-12-07,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2025-12-13,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2025-12-15,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2025-12-17,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2025-12-18,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2025-12-24,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2025-12-25,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2025-12-27,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2025-12-28,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2025-12-30,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2026-01-01,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2026-01-27,price not a multiple of the (float-cleaned) meta tick
+book_off_tick,SOLUSDT_PERP,2026-02-06,price not a multiple of the (float-cleaned) meta tick
+book_jump,1000PEPEUSDC_PERP,2025-10-10,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2025-10-11,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2025-11-03,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2025-11-07,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2025-11-14,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2025-11-21,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2025-12-19,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2025-12-30,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-02,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-03,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-04,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-05,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-06,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-07,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-08,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-09,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-10,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-11,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-14,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-15,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-18,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-19,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-21,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-25,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-27,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-01-31,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-02-06,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-02-14,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-02-15,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-02-20,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-02-23,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-03-01,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-03-03,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-03-07,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-03-16,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-03-17,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-03-18,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-03-19,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-03-23,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-03-27,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-04-03,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-04-07,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-04-08,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-05-10,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-05-16,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-05-17,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-05-21,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-05-22,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-05-23,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-05-28,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-05-29,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-05-31,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-06-02,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-06-05,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-06-11,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-06-15,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-06-19,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-06-24,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-07-01,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-07-14,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-07-15,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-07-26,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-07-27,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-07-28,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-08-01,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-08-06,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-08-11,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-08-19,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-08-21,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-08-22,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-08-23,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-08-25,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-08-26,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-08-27,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-08-28,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-09-04,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-09-05,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-09-06,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDC_PERP,2026-09-10,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2025-09-19,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2025-09-22,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2025-10-10,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2025-10-11,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2025-10-16,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2025-11-07,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2025-11-14,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2025-11-21,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2025-12-19,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2025-12-30,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-02,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-03,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-04,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-05,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-06,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-07,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-08,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-09,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-10,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-11,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-14,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-15,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-18,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-19,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-21,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-23,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-25,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-27,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-01-31,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-02-06,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-02-14,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-02-15,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-02-18,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-02-20,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-02-23,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-03-03,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-03-07,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-03-16,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-03-17,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-03-18,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-03-19,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-03-23,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-04-08,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-04-17,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-05-10,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-05-16,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-05-17,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-05-18,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-05-22,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-05-23,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-05-28,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-05-31,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-06-02,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-06-11,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-06-15,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-06-19,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-06-24,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-07-01,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-07-15,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-07-26,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-07-27,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-07-28,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-08-01,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-08-06,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-08-11,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-08-19,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-08-21,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-08-22,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-08-23,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-08-25,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-08-26,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-08-27,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-08-28,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-08-30,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-09-04,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-09-05,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-09-06,500 ms mid move > 50 bps
+book_jump,1000PEPEUSDT_PERP,2026-09-10,500 ms mid move > 50 bps
+book_jump,BTCFDUSD_SPOT,2025-10-10,500 ms mid move > 50 bps
+book_jump,BTCUSD1_SPOT,2025-12-04,500 ms mid move > 50 bps
+book_jump,BTCUSD1_SPOT,2025-12-05,500 ms mid move > 50 bps
+book_jump,BTCUSD1_SPOT,2025-12-06,500 ms mid move > 50 bps
+book_jump,BTCUSD1_SPOT,2025-12-07,500 ms mid move > 50 bps
+book_jump,BTCUSD1_SPOT,2025-12-08,500 ms mid move > 50 bps
+book_jump,BTCUSD1_SPOT,2025-12-09,500 ms mid move > 50 bps
+book_jump,BTCUSD1_SPOT,2025-12-10,500 ms mid move > 50 bps
+book_jump,BTCUSD1_SPOT,2025-12-11,500 ms mid move > 50 bps
+book_jump,BTCUSD1_SPOT,2025-12-14,500 ms mid move > 50 bps
+book_jump,BTCUSD1_SPOT,2025-12-17,500 ms mid move > 50 bps
+book_jump,BTCUSD1_SPOT,2025-12-22,500 ms mid move > 50 bps
+book_jump,BTCUSD1_SPOT,2026-01-02,500 ms mid move > 50 bps
+book_jump,BTCUSD1_SPOT,2026-02-05,500 ms mid move > 50 bps
+book_jump,BTCUSDC_SPOT,2025-10-10,500 ms mid move > 50 bps
+book_jump,BTCUSDT_PERP,2025-10-10,500 ms mid move > 50 bps
+book_jump,BTCUSDT_PERP,2026-03-01,500 ms mid move > 50 bps
+book_jump,BTCUSDT_PERP,2026-06-24,500 ms mid move > 50 bps
+book_jump,BTCUSDT_PERP,2026-07-14,500 ms mid move > 50 bps
+book_jump,BTCUSDT_PERP,2026-08-19,500 ms mid move > 50 bps
+book_jump,BTCUSDT_PERP,2026-08-22,500 ms mid move > 50 bps
+book_jump,BTCUSDT_PERP,2026-09-04,500 ms mid move > 50 bps
+book_jump,BTCUSDT_SPOT,2025-10-10,500 ms mid move > 50 bps
+book_jump,BTCUSDT_SPOT,2025-11-17,500 ms mid move > 50 bps
+book_jump,BTCUSDT_SPOT,2026-02-07,500 ms mid move > 50 bps
+book_jump,BTCUSDT_SPOT,2026-05-04,500 ms mid move > 50 bps
+book_jump,BTCUSDT_SPOT,2026-06-09,500 ms mid move > 50 bps
+book_jump,ETHFDUSD_SPOT,2025-10-10,500 ms mid move > 50 bps
+book_jump,ETHFDUSD_SPOT,2025-10-12,500 ms mid move > 50 bps
+book_jump,ETHFDUSD_SPOT,2025-10-24,500 ms mid move > 50 bps
+book_jump,ETHFDUSD_SPOT,2026-01-31,500 ms mid move > 50 bps
+book_jump,ETHFDUSD_SPOT,2026-02-04,500 ms mid move > 50 bps
+book_jump,ETHFDUSD_SPOT,2026-02-07,500 ms mid move > 50 bps
+book_jump,ETHFDUSD_SPOT,2026-02-09,500 ms mid move > 50 bps
+book_jump,ETHFDUSD_SPOT,2026-02-12,500 ms mid move > 50 bps
+book_jump,ETHFDUSD_SPOT,2026-07-01,500 ms mid move > 50 bps
+book_jump,ETHFDUSD_SPOT,2026-08-19,500 ms mid move > 50 bps
+book_jump,ETHFDUSD_SPOT,2026-08-23,500 ms mid move > 50 bps
+book_jump,ETHUSD1_SPOT,2025-12-17,500 ms mid move > 50 bps
+book_jump,ETHUSD1_SPOT,2025-12-18,500 ms mid move > 50 bps
+book_jump,ETHUSD1_SPOT,2025-12-29,500 ms mid move > 50 bps
+book_jump,ETHUSD1_SPOT,2026-01-31,500 ms mid move > 50 bps
+book_jump,ETHUSD1_SPOT,2026-02-07,500 ms mid move > 50 bps
+book_jump,ETHUSD1_SPOT,2026-06-24,500 ms mid move > 50 bps
+book_jump,ETHUSD1_SPOT,2026-08-19,500 ms mid move > 50 bps
+book_jump,ETHUSD1_SPOT,2026-08-23,500 ms mid move > 50 bps
+book_jump,ETHUSD1_SPOT,2026-09-04,500 ms mid move > 50 bps
+book_jump,ETHUSDC_SPOT,2025-10-10,500 ms mid move > 50 bps
+book_jump,ETHUSDC_SPOT,2025-12-07,500 ms mid move > 50 bps
+book_jump,ETHUSDC_SPOT,2026-02-07,500 ms mid move > 50 bps
+book_jump,ETHUSDC_SPOT,2026-03-13,500 ms mid move > 50 bps
+book_jump,ETHUSDC_SPOT,2026-06-07,500 ms mid move > 50 bps
+book_jump,ETHUSDC_SPOT,2026-07-01,500 ms mid move > 50 bps
+book_jump,ETHUSDC_SPOT,2026-08-19,500 ms mid move > 50 bps
+book_jump,ETHUSDC_SPOT,2026-08-20,500 ms mid move > 50 bps
+book_jump,ETHUSDC_SPOT,2026-08-22,500 ms mid move > 50 bps
+book_jump,ETHUSDC_SPOT,2026-08-23,500 ms mid move > 50 bps
+book_jump,ETHUSDC_SPOT,2026-09-04,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2025-09-17,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2025-09-25,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2025-10-10,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2025-10-20,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2025-11-04,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2025-12-07,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-01-31,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-02-03,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-02-04,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-02-06,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-02-07,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-02-09,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-03-01,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-03-04,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-03-26,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-03-27,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-05-17,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-05-28,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-06-02,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-06-07,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-06-15,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-06-19,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-06-24,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-07-14,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-08-12,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-08-19,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-08-22,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-08-23,500 ms mid move > 50 bps
+book_jump,ETHUSDT_PERP,2026-09-04,500 ms mid move > 50 bps
+book_jump,ETHUSDT_SPOT,2025-10-10,500 ms mid move > 50 bps
+book_jump,ETHUSDT_SPOT,2026-02-01,500 ms mid move > 50 bps
+book_jump,ETHUSDT_SPOT,2026-02-03,500 ms mid move > 50 bps
+book_jump,ETHUSDT_SPOT,2026-02-07,500 ms mid move > 50 bps
+book_jump,ETHUSDT_SPOT,2026-07-01,500 ms mid move > 50 bps
+book_jump,ETHUSDT_SPOT,2026-08-19,500 ms mid move > 50 bps
+book_jump,ETHUSDT_SPOT,2026-08-23,500 ms mid move > 50 bps
+book_jump,ETHUSDT_SPOT,2026-09-04,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2025-10-10,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2025-10-11,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2025-11-03,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2025-11-07,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2025-11-14,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2025-11-21,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2025-12-18,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2025-12-19,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2025-12-30,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-02,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-03,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-04,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-05,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-06,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-07,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-08,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-09,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-10,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-11,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-12,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-14,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-15,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-16,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-18,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-19,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-21,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-23,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-25,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-27,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-01-31,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-02-05,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-02-06,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-02-07,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-02-11,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-02-13,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-02-14,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-02-15,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-02-20,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-02-26,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-02-27,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-02-28,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-03-01,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-03-03,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-03-04,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-03-06,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-03-07,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-03-13,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-03-16,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-03-17,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-03-18,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-03-19,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-03-23,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-04-07,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-04-08,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-04-11,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-04-16,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-04-17,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-04-29,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-05-10,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-05-16,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-05-17,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-05-22,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-05-23,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-05-27,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-05-31,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-06-07,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-06-13,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-06-15,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-06-16,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-06-24,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-07-01,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-07-15,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-07-26,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-07-27,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-07-31,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-08-01,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-08-02,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-08-06,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-08-14,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-08-20,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-08-21,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-08-22,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-08-23,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-08-25,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-08-27,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-08-28,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-08-30,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-09-04,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-09-05,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-09-06,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-09-09,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-09-10,500 ms mid move > 50 bps
+book_jump,PEPEUSDT_SPOT,2026-09-11,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2025-09-22,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2025-10-10,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2025-11-26,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2025-12-02,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2025-12-14,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2025-12-31,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-01-25,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-01-31,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-02-06,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-03-13,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-03-24,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-03-27,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-03-31,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-04-11,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-05-16,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-06-30,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-08-22,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-08-23,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-08-25,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-08-26,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-09-04,500 ms mid move > 50 bps
+book_jump,SOLFDUSD_SPOT,2026-09-11,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2025-09-22,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2025-10-10,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2025-10-28,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2025-11-26,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2025-12-14,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2025-12-21,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2025-12-31,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-01-23,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-01-25,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-01-31,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-02-06,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-03-13,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-03-27,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-03-31,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-05-13,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-05-16,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-05-23,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-07-03,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-08-19,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-08-22,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-08-23,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-08-24,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-08-25,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-08-26,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-09-04,500 ms mid move > 50 bps
+book_jump,SOLUSDC_SPOT,2026-09-11,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2025-09-22,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2025-10-03,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2025-10-10,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2025-10-16,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2025-10-30,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2025-11-03,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2025-11-20,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2025-11-23,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2025-11-26,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2025-12-02,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2025-12-14,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2025-12-21,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-01-18,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-01-25,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-01-31,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-02-04,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-02-06,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-03-13,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-03-23,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-03-24,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-03-27,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-03-31,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-04-07,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-04-11,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-04-19,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-05-13,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-05-15,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-05-16,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-05-23,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-06-02,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-06-15,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-06-21,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-06-22,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-06-24,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-07-03,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-07-14,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-08-12,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-08-22,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-08-23,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-08-24,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-08-25,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-08-26,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-09-04,500 ms mid move > 50 bps
+book_jump,SOLUSDT_PERP,2026-09-10,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2025-10-07,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2025-10-10,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2025-11-03,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2025-11-11,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2025-11-20,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2025-11-26,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2025-12-02,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2025-12-14,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2025-12-31,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-01-25,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-01-31,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-02-06,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-03-13,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-03-24,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-03-31,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-04-11,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-04-17,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-05-13,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-05-16,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-08-22,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-08-23,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-08-24,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-08-25,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-08-26,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-09-04,500 ms mid move > 50 bps
+book_jump,SOLUSDT_SPOT,2026-09-11,500 ms mid move > 50 bps
+prices_frozen,1000PEPEUSDC_PERP,2026-05-21,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,1000PEPEUSDC_PERP,2026-06-12,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,1000PEPEUSDC_PERP,2026-07-14,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,1000PEPEUSDC_PERP,2026-07-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,1000PEPEUSDT_PERP,2026-05-21,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,1000PEPEUSDT_PERP,2026-06-12,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,1000PEPEUSDT_PERP,2026-07-14,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,1000PEPEUSDT_PERP,2026-07-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCFDUSD_SPOT,2026-08-01,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCFDUSD_SPOT,2026-08-09,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCFDUSD_SPOT,2026-08-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCFDUSD_SPOT,2026-08-16,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCFDUSD_SPOT,2026-09-13,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSD1_SPOT,2025-12-05,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDC_SPOT,2025-09-21,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDC_SPOT,2025-09-27,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDC_SPOT,2026-01-24,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDC_SPOT,2026-08-08,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDC_SPOT,2026-08-09,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDC_SPOT,2026-08-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDC_SPOT,2026-08-16,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_PERP,2025-09-27,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_PERP,2026-01-24,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_PERP,2026-05-21,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_PERP,2026-06-12,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_PERP,2026-07-14,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_PERP,2026-07-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_PERP,2026-08-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_PERP,2026-08-16,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_SPOT,2025-09-20,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_SPOT,2025-09-27,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_SPOT,2025-09-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_SPOT,2025-12-27,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_SPOT,2026-01-01,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_SPOT,2026-01-11,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_SPOT,2026-01-24,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_SPOT,2026-08-09,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_SPOT,2026-08-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,BTCUSDT_SPOT,2026-08-16,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,ETHFDUSD_SPOT,2026-08-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,ETHUSDC_SPOT,2026-08-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,ETHUSDT_PERP,2026-05-21,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,ETHUSDT_PERP,2026-06-12,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,ETHUSDT_PERP,2026-07-14,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,ETHUSDT_PERP,2026-07-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,ETHUSDT_SPOT,2026-08-08,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,ETHUSDT_SPOT,2026-08-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-09-30,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-10-01,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-10-18,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-11-17,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-11-18,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-11-19,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-11-20,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-11-23,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-11-27,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-11-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-11-29,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-11-30,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-01,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-02,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-04,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-05,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-06,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-07,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-11,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-12,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-13,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-14,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-16,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-17,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-18,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-19,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-20,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-21,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-22,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-23,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-24,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-25,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-26,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-27,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-29,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-30,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2025-12-31,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-01-01,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-01-10,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-01-11,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-01-16,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-01-17,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-01-19,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-01-23,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-01-24,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-01-25,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-01-26,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-01-27,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-01-29,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-07,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-08,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-09,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-10,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-11,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-12,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-13,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-14,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-17,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-18,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-19,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-21,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-22,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-23,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-24,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-25,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-26,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-27,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-02-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-01,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-02,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-03,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-04,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-05,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-06,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-07,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-08,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-09,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-10,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-11,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-12,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-14,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-17,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-18,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-19,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-20,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-21,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-22,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-23,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-24,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-25,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-26,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-27,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-29,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-30,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-03-31,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-01,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-02,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-03,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-04,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-05,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-06,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-07,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-08,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-09,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-10,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-11,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-12,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-13,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-14,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-18,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-19,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-20,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-21,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-22,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-23,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-24,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-25,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-26,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-27,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-29,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-04-30,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-01,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-02,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-03,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-04,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-05,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-07,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-08,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-09,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-10,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-11,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-12,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-13,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-14,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-16,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-17,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-18,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-19,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-20,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-21,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-22,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-23,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-24,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-25,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-26,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-27,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-29,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-30,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-05-31,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-01,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-02,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-03,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-06,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-07,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-08,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-09,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-10,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-11,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-12,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-13,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-14,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-16,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-17,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-18,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-19,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-20,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-21,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-22,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-23,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-24,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-25,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-26,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-27,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-29,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-06-30,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-01,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-02,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-03,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-04,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-05,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-06,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-07,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-08,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-09,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-10,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-11,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-12,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-13,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-14,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-16,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-17,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-18,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-19,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-20,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-21,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-22,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-23,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-24,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-25,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-26,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-27,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-29,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-30,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-07-31,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-01,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-02,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-03,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-04,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-05,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-06,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-07,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-08,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-09,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-10,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-11,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-12,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-13,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-14,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-16,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-17,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-18,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-19,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-26,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-27,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-29,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-30,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-08-31,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-09-01,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-09-02,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-09-03,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-09-04,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-09-05,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-09-06,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-09-07,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-09-08,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-09-09,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-09-10,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-09-11,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-09-12,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-09-13,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,PEPEUSDT_SPOT,2026-09-14,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,SOLFDUSD_SPOT,2026-08-15,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,SOLUSDT_PERP,2026-05-21,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,SOLUSDT_PERP,2026-06-12,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,SOLUSDT_PERP,2026-07-14,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,SOLUSDT_PERP,2026-07-28,best prices unchanged > 15 min (feed freeze?)
+prices_frozen,SOLUSDT_PERP,2026-08-16,best prices unchanged > 15 min (feed freeze?)
+trades_inconsistent,1000PEPEUSDC_PERP,2026-08-22,trade-bar fields contradict each other
+trades_inconsistent,1000PEPEUSDT_PERP,2026-08-22,trade-bar fields contradict each other
+trades_inconsistent,BTCUSD1_SPOT,2025-12-10,trade-bar fields contradict each other
+trades_inconsistent,BTCUSD1_SPOT,2025-12-24,trade-bar fields contradict each other
+trades_inconsistent,BTCUSDT_SPOT,2026-07-20,trade-bar fields contradict each other
+trades_inconsistent,ETHFDUSD_SPOT,2025-10-10,trade-bar fields contradict each other
+trades_inconsistent,ETHUSDC_SPOT,2025-10-10,trade-bar fields contradict each other
+trades_inconsistent,ETHUSDC_SPOT,2026-03-15,trade-bar fields contradict each other
+trades_inconsistent,SOLUSDT_PERP,2026-08-22,trade-bar fields contradict each other
+trades_inconsistent,SOLUSDT_SPOT,2025-12-31,trade-bar fields contradict each other
+targets_gap,1000PEPEUSDT_PERP,2025-09-15,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-16,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-17,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-18,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-19,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-20,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-21,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-22,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-23,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-24,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-25,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-26,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-27,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-28,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-29,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-09-30,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-01,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-02,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-03,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-04,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-05,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-06,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-07,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-08,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-09,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-10,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-11,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-12,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-13,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-14,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-15,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-16,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-17,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-18,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-19,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-20,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-21,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-22,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-23,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-24,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-25,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-26,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-27,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-28,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-29,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-30,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-10-31,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-01,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-02,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-03,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-04,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-05,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-06,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-07,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-08,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-09,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-10,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-11,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-12,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-13,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-14,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-15,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-16,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-17,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-18,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-19,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-20,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-21,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-22,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-23,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-24,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-25,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-26,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-27,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-28,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-29,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-11-30,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-01,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-02,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-03,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-04,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-05,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-06,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-07,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-08,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-09,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-10,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-11,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-12,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-13,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-14,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-15,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-16,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-17,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-18,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-19,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-20,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-21,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-22,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-23,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-24,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-25,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-26,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-27,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-28,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-29,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-30,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2025-12-31,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-01,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-02,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-03,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-04,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-05,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-06,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-07,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-08,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-09,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-10,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-11,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-12,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-13,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-14,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-15,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-16,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-17,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-18,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-19,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-20,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-21,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-22,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-23,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-24,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-25,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-26,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-27,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-28,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-29,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-30,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-01-31,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-01,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-02,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-03,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-04,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-05,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-06,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-07,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-08,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-09,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-10,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-11,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-12,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-13,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-14,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-15,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-16,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-17,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-18,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-19,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-20,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-21,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-22,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-23,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-24,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-25,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-26,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-27,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-02-28,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-01,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-02,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-03,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-04,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-05,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-06,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-07,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-08,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-09,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-10,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-11,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-12,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-13,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-14,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-15,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-16,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-17,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-18,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-19,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-20,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-21,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-22,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-23,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-24,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-25,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-26,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-27,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-28,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-29,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-30,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-03-31,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-01,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-02,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-03,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-04,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-05,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-06,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-07,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-08,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-09,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-10,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-11,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-12,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-13,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-14,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-15,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-16,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-17,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-18,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-19,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-20,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-21,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-22,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-23,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-24,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-25,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-26,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-27,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-28,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-29,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-04-30,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-01,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-02,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-03,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-04,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-05,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-06,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-07,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-08,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-09,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-10,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-11,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-12,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-13,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-14,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-15,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-16,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-17,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-18,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-19,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-20,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-21,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-22,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-23,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-24,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-25,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-26,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-27,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-28,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-29,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-30,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-05-31,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-01,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-02,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-03,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-04,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-05,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-06,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-07,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-08,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-09,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-10,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-11,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-12,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-13,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-14,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-15,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-16,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-17,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-18,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-19,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-20,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-21,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-22,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-23,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-24,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-25,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-26,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-27,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-28,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-29,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-06-30,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-01,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-02,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-03,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-04,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-05,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-06,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-07,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-08,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-09,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-10,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-11,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-12,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-13,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-14,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-15,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-16,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-17,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-18,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-19,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-20,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-21,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-22,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-23,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-24,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-25,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-26,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-27,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-28,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-29,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-30,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-07-31,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-01,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-02,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-03,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-04,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-05,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-06,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-07,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-08,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-09,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-10,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-11,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-12,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-13,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-14,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-15,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-16,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-17,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-18,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-19,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-20,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-21,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-22,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-23,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-24,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-25,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-26,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-27,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-28,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-29,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-30,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-08-31,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-09-01,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-09-02,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-09-03,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-09-04,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-09-05,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-09-06,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-09-07,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-09-08,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-09-09,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-09-10,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-09-11,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-09-12,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-09-13,missing / non-finite targets
+targets_gap,1000PEPEUSDT_PERP,2026-09-14,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-15,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-16,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-17,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-18,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-19,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-20,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-21,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-22,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-23,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-24,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-25,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-26,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-27,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-28,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-29,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-09-30,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-01,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-02,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-03,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-04,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-05,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-06,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-07,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-08,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-09,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-10,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-11,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-12,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-13,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-14,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-15,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-16,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-17,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-18,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-19,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-20,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-21,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-22,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-23,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-24,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-25,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-26,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-27,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-28,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-29,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-30,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-10-31,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-01,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-02,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-03,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-04,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-05,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-06,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-07,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-08,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-09,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-10,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-11,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-12,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-13,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-14,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-15,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-16,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-17,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-18,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-19,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-20,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-21,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-22,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-23,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-24,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-25,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-26,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-27,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-28,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-29,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-11-30,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-01,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-02,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-03,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-04,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-05,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-06,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-07,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-08,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-09,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-10,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-11,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-12,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-13,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-14,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-15,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-16,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-17,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-18,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-19,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-20,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-21,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-22,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-23,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-24,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-25,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-26,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-27,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-28,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-29,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-30,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2025-12-31,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-01,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-02,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-03,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-04,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-05,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-06,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-07,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-08,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-09,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-10,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-11,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-12,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-13,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-14,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-15,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-16,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-17,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-18,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-19,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-20,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-21,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-22,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-23,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-24,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-25,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-26,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-27,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-28,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-29,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-30,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-01-31,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-01,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-02,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-03,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-04,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-05,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-06,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-07,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-08,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-09,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-10,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-11,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-12,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-13,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-14,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-15,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-16,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-17,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-18,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-19,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-20,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-21,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-22,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-23,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-24,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-25,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-26,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-27,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-02-28,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-01,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-02,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-03,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-04,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-05,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-06,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-07,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-08,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-09,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-10,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-11,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-12,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-13,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-14,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-15,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-16,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-17,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-18,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-19,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-20,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-21,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-22,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-23,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-24,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-25,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-26,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-27,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-28,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-29,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-30,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-03-31,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-01,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-02,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-03,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-04,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-05,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-06,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-07,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-08,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-09,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-10,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-11,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-12,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-13,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-14,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-15,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-16,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-17,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-18,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-19,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-20,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-21,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-22,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-23,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-24,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-25,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-26,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-27,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-28,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-29,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-04-30,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-01,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-02,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-03,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-04,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-05,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-06,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-07,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-08,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-09,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-10,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-11,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-12,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-13,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-14,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-15,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-16,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-17,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-18,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-19,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-20,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-21,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-22,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-23,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-24,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-25,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-26,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-27,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-28,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-29,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-30,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-05-31,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-01,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-02,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-03,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-04,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-05,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-06,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-07,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-08,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-09,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-10,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-11,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-12,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-13,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-14,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-15,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-16,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-17,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-18,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-19,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-20,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-21,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-22,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-23,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-24,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-25,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-26,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-27,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-28,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-29,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-06-30,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-01,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-02,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-03,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-04,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-05,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-06,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-07,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-08,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-09,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-10,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-11,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-12,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-13,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-14,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-15,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-16,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-17,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-18,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-19,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-20,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-21,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-22,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-23,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-24,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-25,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-26,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-27,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-28,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-29,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-30,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-07-31,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-01,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-02,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-03,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-04,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-05,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-06,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-07,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-08,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-09,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-10,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-11,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-12,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-13,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-14,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-15,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-16,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-17,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-18,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-19,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-20,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-21,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-22,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-23,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-24,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-25,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-26,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-27,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-28,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-29,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-30,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-08-31,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-09-01,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-09-02,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-09-03,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-09-04,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-09-05,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-09-06,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-09-07,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-09-08,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-09-09,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-09-10,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-09-11,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-09-12,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-09-13,missing / non-finite targets
+targets_gap,BTCUSDT_PERP,2026-09-14,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-15,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-16,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-17,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-18,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-19,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-20,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-21,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-22,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-23,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-24,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-25,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-26,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-27,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-28,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-29,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-09-30,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-01,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-02,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-03,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-04,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-05,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-06,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-07,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-08,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-09,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-10,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-11,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-12,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-13,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-14,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-15,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-16,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-17,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-18,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-19,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-20,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-21,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-22,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-23,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-24,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-25,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-26,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-27,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-28,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-29,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-30,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-10-31,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-01,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-02,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-03,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-04,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-05,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-06,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-07,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-08,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-09,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-10,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-11,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-12,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-13,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-14,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-15,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-16,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-17,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-18,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-19,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-20,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-21,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-22,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-23,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-24,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-25,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-26,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-27,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-28,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-29,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-11-30,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-01,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-02,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-03,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-04,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-05,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-06,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-07,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-08,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-09,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-10,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-11,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-12,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-13,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-14,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-15,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-16,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-17,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-18,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-19,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-20,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-21,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-22,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-23,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-24,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-25,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-26,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-27,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-28,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-29,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-30,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2025-12-31,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-01,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-02,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-03,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-04,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-05,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-06,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-07,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-08,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-09,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-10,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-11,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-12,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-13,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-14,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-15,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-16,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-17,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-18,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-19,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-20,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-21,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-22,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-23,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-24,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-25,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-26,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-27,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-28,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-29,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-30,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-01-31,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-01,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-02,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-03,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-04,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-05,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-06,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-07,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-08,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-09,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-10,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-11,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-12,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-13,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-14,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-15,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-16,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-17,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-18,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-19,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-20,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-21,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-22,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-23,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-24,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-25,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-26,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-27,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-02-28,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-01,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-02,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-03,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-04,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-05,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-06,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-07,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-08,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-09,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-10,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-11,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-12,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-13,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-14,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-15,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-16,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-17,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-18,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-19,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-20,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-21,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-22,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-23,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-24,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-25,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-26,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-27,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-28,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-29,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-30,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-03-31,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-01,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-02,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-03,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-04,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-05,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-06,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-07,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-08,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-09,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-10,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-11,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-12,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-13,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-14,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-15,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-16,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-17,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-18,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-19,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-20,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-21,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-22,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-23,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-24,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-25,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-26,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-27,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-28,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-29,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-04-30,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-01,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-02,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-03,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-04,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-05,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-06,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-07,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-08,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-09,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-10,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-11,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-12,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-13,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-14,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-15,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-16,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-17,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-18,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-19,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-20,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-21,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-22,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-23,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-24,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-25,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-26,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-27,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-28,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-29,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-30,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-05-31,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-01,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-02,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-03,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-04,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-05,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-06,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-07,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-08,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-09,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-10,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-11,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-12,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-13,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-14,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-15,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-16,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-17,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-18,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-19,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-20,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-21,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-22,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-23,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-24,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-25,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-26,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-27,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-28,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-29,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-06-30,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-01,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-02,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-03,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-04,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-05,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-06,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-07,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-08,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-09,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-10,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-11,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-12,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-13,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-14,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-15,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-16,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-17,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-18,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-19,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-20,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-21,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-22,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-23,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-24,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-25,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-26,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-27,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-28,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-29,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-30,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-07-31,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-01,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-02,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-03,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-04,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-05,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-06,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-07,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-08,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-09,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-10,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-11,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-12,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-13,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-14,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-15,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-16,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-17,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-18,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-19,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-20,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-21,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-22,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-23,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-24,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-25,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-26,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-27,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-28,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-29,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-30,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-08-31,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-09-01,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-09-02,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-09-03,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-09-04,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-09-05,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-09-06,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-09-07,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-09-08,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-09-09,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-09-10,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-09-11,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-09-12,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-09-13,missing / non-finite targets
+targets_gap,ETHUSDT_PERP,2026-09-14,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-15,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-16,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-17,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-18,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-19,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-20,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-21,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-22,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-23,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-24,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-25,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-26,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-27,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-28,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-29,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-09-30,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-01,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-02,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-03,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-04,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-05,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-06,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-07,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-08,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-09,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-10,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-11,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-12,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-13,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-14,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-15,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-16,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-17,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-18,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-19,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-20,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-21,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-22,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-23,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-24,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-25,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-26,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-27,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-28,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-29,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-30,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-10-31,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-01,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-02,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-03,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-04,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-05,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-06,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-07,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-08,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-09,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-10,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-11,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-12,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-13,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-14,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-15,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-16,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-17,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-18,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-19,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-20,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-21,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-22,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-23,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-24,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-25,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-26,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-27,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-28,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-29,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-11-30,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-01,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-02,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-03,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-04,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-05,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-06,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-07,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-08,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-09,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-10,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-11,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-12,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-13,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-14,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-15,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-16,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-17,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-18,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-19,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-20,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-21,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-22,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-23,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-24,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-25,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-26,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-27,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-28,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-29,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-30,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2025-12-31,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-01,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-02,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-03,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-04,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-05,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-06,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-07,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-08,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-09,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-10,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-11,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-12,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-13,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-14,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-15,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-16,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-17,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-18,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-19,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-20,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-21,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-22,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-23,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-24,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-25,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-26,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-27,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-28,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-29,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-30,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-01-31,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-01,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-02,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-03,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-04,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-05,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-06,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-07,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-08,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-09,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-10,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-11,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-12,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-13,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-14,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-15,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-16,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-17,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-18,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-19,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-20,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-21,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-22,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-23,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-24,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-25,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-26,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-27,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-02-28,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-01,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-02,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-03,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-04,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-05,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-06,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-07,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-08,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-09,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-10,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-11,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-12,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-13,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-14,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-15,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-16,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-17,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-18,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-19,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-20,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-21,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-22,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-23,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-24,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-25,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-26,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-27,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-28,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-29,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-30,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-03-31,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-01,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-02,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-03,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-04,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-05,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-06,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-07,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-08,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-09,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-10,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-11,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-12,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-13,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-14,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-15,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-16,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-17,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-18,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-19,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-20,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-21,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-22,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-23,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-24,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-25,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-26,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-27,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-28,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-29,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-04-30,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-01,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-02,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-03,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-04,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-05,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-06,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-07,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-08,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-09,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-10,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-11,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-12,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-13,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-14,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-15,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-16,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-17,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-18,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-19,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-20,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-21,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-22,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-23,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-24,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-25,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-26,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-27,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-28,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-29,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-30,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-05-31,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-01,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-02,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-03,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-04,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-05,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-06,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-07,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-08,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-09,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-10,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-11,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-12,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-13,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-14,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-15,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-16,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-17,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-18,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-19,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-20,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-21,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-22,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-23,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-24,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-25,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-26,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-27,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-28,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-29,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-06-30,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-01,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-02,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-03,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-04,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-05,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-06,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-07,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-08,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-09,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-10,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-11,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-12,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-13,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-14,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-15,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-16,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-17,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-18,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-19,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-20,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-21,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-22,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-23,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-24,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-25,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-26,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-27,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-28,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-29,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-30,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-07-31,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-01,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-02,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-03,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-04,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-05,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-06,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-07,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-08,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-09,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-10,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-11,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-12,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-13,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-14,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-15,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-16,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-17,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-18,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-19,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-20,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-21,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-22,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-23,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-24,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-25,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-26,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-27,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-28,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-29,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-30,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-08-31,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-09-01,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-09-02,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-09-03,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-09-04,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-09-05,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-09-06,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-09-07,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-09-08,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-09-09,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-09-10,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-09-11,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-09-12,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-09-13,missing / non-finite targets
+targets_gap,SOLUSDT_PERP,2026-09-14,missing / non-finite targets
+stable_depeg,FDUSDUSDT,2025-09-24,384 s beyond 50 bps
+stable_depeg,FDUSDUSDT,2025-10-10,4353 s beyond 50 bps
+stable_depeg,USDCUSDT,2025-10-10,508 s beyond 50 bps
+stable_depeg,FDUSDUSDT,2025-10-11,7656 s beyond 50 bps
+stable_depeg,USD1USDT,2026-02-23,271 s beyond 50 bps

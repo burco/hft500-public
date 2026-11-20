@@ -1,0 +1,132 @@
+{
+ "featureset_check": {
+  "pruned": 0.2513209398002956,
+  "full": 0.2515484141551793
+ },
+ "ridge_lambda": 1e-06,
+ "lgb_config": "B",
+ "lgb_iters": 100,
+ "lgb_feats": "pruned",
+ "tune_scores": [
+  {
+   "config": "B",
+   "feats": "pruned",
+   "iters": 100,
+   "corr": 0.2557888838276436
+  },
+  {
+   "config": "A",
+   "feats": "pruned",
+   "iters": 200,
+   "corr": 0.2553770787342448
+  },
+  {
+   "config": "A",
+   "feats": "pruned",
+   "iters": 400,
+   "corr": 0.2550277122987833
+  },
+  {
+   "config": "B",
+   "feats": "pruned",
+   "iters": 200,
+   "corr": 0.25473129793909316
+  },
+  {
+   "config": "A",
+   "feats": "pruned",
+   "iters": 100,
+   "corr": 0.2545842890877535
+  },
+  {
+   "config": "A",
+   "feats": "pruned",
+   "iters": 600,
+   "corr": 0.25440955196127896
+  },
+  {
+   "config": "A",
+   "feats": "pruned",
+   "iters": 800,
+   "corr": 0.2537208910309218
+  },
+  {
+   "config": "A",
+   "feats": "full",
+   "iters": 200,
+   "corr": 0.252397178144792
+  },
+  {
+   "config": "A",
+   "feats": "full",
+   "iters": 400,
+   "corr": 0.25199247120260226
+  },
+  {
+   "config": "B",
+   "feats": "pruned",
+   "iters": 400,
+   "corr": 0.2516315720754086
+  },
+  {
+   "config": "A",
+   "feats": "full",
+   "iters": 100,
+   "corr": 0.2515484141551793
+  },
+  {
+   "config": "A",
+   "feats": "full",
+   "iters": 600,
+   "corr": 0.2514650604954546
+  },
+  {
+   "config": "A",
+   "feats": "full",
+   "iters": 800,
+   "corr": 0.2506574442146548
+  },
+  {
+   "config": "B",
+   "feats": "pruned",
+   "iters": 600,
+   "corr": 0.2489735262872693
+  },
+  {
+   "config": "B",
+   "feats": "pruned",
+   "iters": 800,
+   "corr": 0.24622927145900755
+  }
+ ],
+ "linear_scores": [
+  {
+   "model": "ridge_pruned_1e-06",
+   "corr": 0.21374533075144106
+  },
+  {
+   "model": "ridge_pruned_0.01",
+   "corr": 0.21373546204527563
+  },
+  {
+   "model": "ols_full",
+   "corr": 0.2135747098467243
+  },
+  {
+   "model": "ridge_pruned_0.1",
+   "corr": 0.2134698356309163
+  },
+  {
+   "model": "ridge_pruned_1",
+   "corr": 0.21072841854697166
+  },
+  {
+   "model": "ridge_pruned_10",
+   "corr": 0.20121096011733816
+  },
+  {
+   "model": "imb_only",
+   "corr": 0.1965100587678973
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+cache/
+data/
+models/
+*.parquet
+*.tar
+*.zip
+*.log

@@ -1,0 +1,26 @@
+{
+ "candidates": [
+  "xr_btc_0.1s",
+  "xr_btc_0.2s",
+  "xr_eth_0.1s",
+  "xr_eth_0.2s",
+  "xr_sol_0.1s",
+  "xr_sol_0.2s",
+  "xr_pepe_0.1s",
+  "xr_pepe_0.2s",
+  "r_0.1s",
+  "r_0.2s",
+  "ofi_0.2s",
+  "xofi_btc_0.5s",
+  "xofi_eth_0.5s",
+  "xofi_sol_0.5s",
+  "xofi_pepe_0.5s",
+  "gap_z_0.5s",
+  "gap_z_2s"
+ ],
+ "mean_gain": 0.0048871271480993616,
+ "cells_improved": 12,
+ "cells": 12,
+ "score_base": 0.22381415540352312,
+ "score_full": 0.22870128255162245
+}

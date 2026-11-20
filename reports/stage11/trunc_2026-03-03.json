@@ -1,0 +1,101 @@
+[
+ {
+  "T": 1772496000000,
+  "rows": 1,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-03-03",
+  "T_utc": "2026-03-03T00:00:00"
+ },
+ {
+  "T": 1772496000500,
+  "rows": 2,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-03-03",
+  "T_utc": "2026-03-03T00:00:00.500000"
+ },
+ {
+  "T": 1772582399500,
+  "rows": 172800,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-03-03",
+  "T_utc": "2026-03-03T23:59:59.500000"
+ },
+ {
+  "T": 1772543873206,
+  "rows": 95747,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-03-03",
+  "T_utc": "2026-03-03T13:17:53.206000"
+ },
+ {
+  "T": 1772568486331,
+  "rows": 144973,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-03-03",
+  "T_utc": "2026-03-03T20:08:06.331000"
+ },
+ {
+  "T": 1772556834621,
+  "rows": 121670,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-03-03",
+  "T_utc": "2026-03-03T16:53:54.621000"
+ },
+ {
+  "T": 1772526720211,
+  "rows": 61441,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-03-03",
+  "T_utc": "2026-03-03T08:32:00.211000"
+ },
+ {
+  "T": 1772557365983,
+  "rows": 122732,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-03-03",
+  "T_utc": "2026-03-03T17:02:45.983000"
+ },
+ {
+  "T": 1772496001500,
+  "rows": 4,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-03-03",
+  "T_utc": "2026-03-03T00:00:01.500000"
+ }
+]

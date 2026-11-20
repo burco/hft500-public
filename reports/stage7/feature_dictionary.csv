@@ -1,0 +1,33 @@
+feature,family,lookback_s,description
+imb_l1,imbalance,0.0,best-level queue imbalance (Qb-Qa)/(Qb+Qa) from the 100 ms quote grid
+imb_l1_chg_1s,imbalance,1.0,imb_l1 now minus 1 s ago
+imb_l1_ewm_5s,imbalance,30.0,"EWMA of imb_l1, half-life 5 s"
+imb_l1_ewm_30s,imbalance,180.0,"EWMA of imb_l1, half-life 30 s"
+dimb_0.5bps,depth,0.0,cumulative notional imbalance of book buckets within 0.5bps of mid
+dimb_1bps,depth,0.0,cumulative notional imbalance of book buckets within 1bps of mid
+dimb_2bps,depth,0.0,cumulative notional imbalance of book buckets within 2bps of mid
+dimb_10bps,depth,0.0,cumulative notional imbalance of book buckets within 10bps of mid
+depth2bps_rel,depth,1800.0,"log(depth within 2 bps / its EWMA, half-life 5 min)"
+depth_near_share,depth,0.0,share of book notional within 2 bps out of all 11 buckets
+spread_ticks,spread,0.0,spread in ticks (tick from the previous day's prices)
+spread_bps,spread,0.0,spread / mid in bps
+mp_dev_ticks,spread,0.0,"microprice - mid in ticks = imb_l1 * spread_ticks / 2, clipped to +-2"
+ret_0.5s,momentum,0.5,"past log mid return over 0.5s, bps"
+ret_1s,momentum,1.0,"past log mid return over 1s, bps"
+ret_2s,momentum,2.0,"past log mid return over 2s, bps"
+ret_5s,momentum,5.0,"past log mid return over 5s, bps"
+ret_10s,momentum,10.0,"past log mid return over 10s, bps"
+ret_30s,momentum,30.0,"past log mid return over 30s, bps"
+ret_60s,momentum,60.0,"past log mid return over 60s, bps"
+retz_0.5s,momentum,300.0,ret_0.5s divided by its expected size from 5 min realised vol
+retz_2s,momentum,300.0,ret_2s divided by its expected size from 5 min realised vol
+retz_10s,momentum,300.0,ret_10s divided by its expected size from 5 min realised vol
+rv_30s,volatility,30.0,"realised vol of 500 ms mid returns over 30 s, bps"
+rv_5min,volatility,300.0,"realised vol of 500 ms mid returns over 5 min, bps"
+rv_ratio,volatility,300.0,rv_30s / rv_5min scaled to the same horizon (vol is rising if > 1)
+moves_10s,activity,10.0,number of best-price changes in the last 10 s
+moves_60s,activity,60.0,number of best-price changes in the last 60 s
+px_age_log,staleness,0.0,log(1 + seconds since the best bid or ask price last changed)
+frozen_60s,staleness,0.0,1 if the best prices have not changed for > 60 s (feed-freeze clock)
+quote_age_s,staleness,0.0,seconds since the last quote record of any kind
+book_age_s,staleness,0.0,seconds since the last 500 ms book snapshot

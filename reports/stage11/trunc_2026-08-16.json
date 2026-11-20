@@ -1,0 +1,136 @@
+[
+ {
+  "T": 1786838400000,
+  "rows": 1,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-08-16",
+  "T_utc": "2026-08-16T00:00:00"
+ },
+ {
+  "T": 1786838400500,
+  "rows": 2,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-08-16",
+  "T_utc": "2026-08-16T00:00:00.500000"
+ },
+ {
+  "T": 1786924799500,
+  "rows": 172800,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-08-16",
+  "T_utc": "2026-08-16T23:59:59.500000"
+ },
+ {
+  "T": 1786843364503,
+  "rows": 9930,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-08-16",
+  "T_utc": "2026-08-16T01:22:44.503000"
+ },
+ {
+  "T": 1786850288310,
+  "rows": 23777,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-08-16",
+  "T_utc": "2026-08-16T03:18:08.310000"
+ },
+ {
+  "T": 1786851482209,
+  "rows": 26165,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-08-16",
+  "T_utc": "2026-08-16T03:38:02.209000"
+ },
+ {
+  "T": 1786907596393,
+  "rows": 138393,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-08-16",
+  "T_utc": "2026-08-16T19:13:16.393000"
+ },
+ {
+  "T": 1786848040145,
+  "rows": 19281,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-08-16",
+  "T_utc": "2026-08-16T02:40:40.145000"
+ },
+ {
+  "T": 1786838400500,
+  "rows": 2,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-08-16",
+  "T_utc": "2026-08-16T00:00:00.500000"
+ },
+ {
+  "T": 1786838400250,
+  "rows": 1,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-08-16",
+  "T_utc": "2026-08-16T00:00:00.250000"
+ },
+ {
+  "T": 1786870800123,
+  "rows": 64801,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-08-16",
+  "T_utc": "2026-08-16T09:00:00.123000",
+  "note": "inside BTC feed freeze"
+ },
+ {
+  "T": 1786872840123,
+  "rows": 68881,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-08-16",
+  "T_utc": "2026-08-16T09:34:00.123000",
+  "note": "inside BTC feed freeze"
+ }
+]

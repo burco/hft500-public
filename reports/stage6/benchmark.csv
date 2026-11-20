@@ -1,0 +1,25 @@
+model,features,instrument,horizon,valid_mean_daily_pearson
+zero (constant 0),none,1000PEPEUSDT_PERP,y_2s,0.0
+zero (constant 0),none,1000PEPEUSDT_PERP,y_500ms,0.0
+zero (constant 0),none,1000PEPEUSDT_PERP,y_8s,0.0
+zero (constant 0),none,BTCUSDT_PERP,y_2s,0.0
+zero (constant 0),none,BTCUSDT_PERP,y_500ms,0.0
+zero (constant 0),none,BTCUSDT_PERP,y_8s,0.0
+zero (constant 0),none,ETHUSDT_PERP,y_2s,0.0
+zero (constant 0),none,ETHUSDT_PERP,y_500ms,0.0
+zero (constant 0),none,ETHUSDT_PERP,y_8s,0.0
+zero (constant 0),none,SOLUSDT_PERP,y_2s,0.0
+zero (constant 0),none,SOLUSDT_PERP,y_500ms,0.0
+zero (constant 0),none,SOLUSDT_PERP,y_8s,0.0
+official OLS baseline,best-level queue imbalance (book row at t),1000PEPEUSDT_PERP,y_2s,0.161689
+official OLS baseline,best-level queue imbalance (book row at t),1000PEPEUSDT_PERP,y_500ms,0.154988
+official OLS baseline,best-level queue imbalance (book row at t),1000PEPEUSDT_PERP,y_8s,0.119105
+official OLS baseline,best-level queue imbalance (book row at t),BTCUSDT_PERP,y_2s,0.21555
+official OLS baseline,best-level queue imbalance (book row at t),BTCUSDT_PERP,y_500ms,0.194601
+official OLS baseline,best-level queue imbalance (book row at t),BTCUSDT_PERP,y_8s,0.191433
+official OLS baseline,best-level queue imbalance (book row at t),ETHUSDT_PERP,y_2s,0.201863
+official OLS baseline,best-level queue imbalance (book row at t),ETHUSDT_PERP,y_500ms,0.200381
+official OLS baseline,best-level queue imbalance (book row at t),ETHUSDT_PERP,y_8s,0.158348
+official OLS baseline,best-level queue imbalance (book row at t),SOLUSDT_PERP,y_2s,0.221181
+official OLS baseline,best-level queue imbalance (book row at t),SOLUSDT_PERP,y_500ms,0.195792
+official OLS baseline,best-level queue imbalance (book row at t),SOLUSDT_PERP,y_8s,0.191201

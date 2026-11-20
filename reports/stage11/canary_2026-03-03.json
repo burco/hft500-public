@@ -1,0 +1,50 @@
+[
+ {
+  "T": 1772539200000,
+  "rows": 86401,
+  "ok": false,
+  "mismatches": 12,
+  "bad_columns": [
+   "pred_500ms_BTCUSDT_PERP",
+   "pred_500ms_ETHUSDT_PERP",
+   "pred_500ms_SOLUSDT_PERP",
+   "pred_500ms_1000PEPEUSDT_PERP",
+   "pred_2s_BTCUSDT_PERP",
+   "pred_2s_ETHUSDT_PERP",
+   "pred_2s_SOLUSDT_PERP",
+   "pred_2s_1000PEPEUSDT_PERP",
+   "pred_8s_BTCUSDT_PERP",
+   "pred_8s_ETHUSDT_PERP",
+   "pred_8s_SOLUSDT_PERP",
+   "pred_8s_1000PEPEUSDT_PERP"
+  ],
+  "first_bad_ts": 1772539200000,
+  "variant": "leak_future",
+  "date": "2026-03-03",
+  "T_utc": "2026-03-03T12:00:00"
+ },
+ {
+  "T": 1772539200000,
+  "rows": 86401,
+  "ok": false,
+  "mismatches": 97691,
+  "bad_columns": [
+   "pred_500ms_BTCUSDT_PERP",
+   "pred_500ms_ETHUSDT_PERP",
+   "pred_500ms_SOLUSDT_PERP",
+   "pred_500ms_1000PEPEUSDT_PERP",
+   "pred_2s_BTCUSDT_PERP",
+   "pred_2s_ETHUSDT_PERP",
+   "pred_2s_SOLUSDT_PERP",
+   "pred_2s_1000PEPEUSDT_PERP",
+   "pred_8s_BTCUSDT_PERP",
+   "pred_8s_ETHUSDT_PERP",
+   "pred_8s_SOLUSDT_PERP",
+   "pred_8s_1000PEPEUSDT_PERP"
+  ],
+  "first_bad_ts": 1772496001000,
+  "variant": "leak_day_stat",
+  "date": "2026-03-03",
+  "T_utc": "2026-03-03T12:00:00"
+ }
+]

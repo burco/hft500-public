@@ -1,0 +1,24 @@
+file,line,pattern,code
+align.py,7,backward fill,The state at t is the LAST record with ts <= t (backward as-of join).
+align.py,11,backward fill,"* stable  : 1 s grid, forward-filled by the provider; as-of backward join."
+align.py,16,negative shift,"Never: shift(-k), centred windows, backward fill, whole-day statistics, or anything"
+align.py,16,backward fill,"Never: shift(-k), centred windows, backward fill, whole-day statistics, or anything"
+align.py,150,sort without order guarantee,".sort(""ts"", maintain_order=True))"
+align.py,184,sort without order guarantee,"bk = bk.sort(""ts"", maintain_order=True)"
+align.py,206,sort without order guarantee,"tr = tr.sort(""ts"", maintain_order=True)"
+align.py,223,sort without order guarantee,"last_trade_ts = np.sort((bts - tr[f""{s}_last_ms""].cast(pl.Int64).to_numpy())[has])"
+align.py,241,sort without order guarantee,"g = st.filter(pl.col(""pair"") == pair).sort(""ts"", maintain_order=True)"
+align.py,251,targets access,"def load_day(root: Root, inst: str, date: str, warmup: bool = True, with_targets: bool = False) -> pl.DataFrame:"
+align.py,253,targets access,"staleness clocks, and optionally the supplied targets (training only — never a feature)."
+align.py,269,targets access,if with_targets:
+align.py,270,targets access,"tg = root.read(""targets"", date, inst)"
+features_book.py,11,backward fill,* EWMAs and rolling sums only look backwards; nothing is normalised by a whole-day statistic.
+features_book.py,172,sort without order guarantee,"bk = bk.sort(""ts"", maintain_order=True)"
+features_cross.py,114,sort without order guarantee,"g = st.filter(pl.col(""pair"") == pair).sort(""ts"", maintain_order=True)"
+pipeline.py,10,targets access,"before, never targets) and records every read for the audit."
+pipeline.py,20,targets access,"PRED = {""y_500ms"": ""pred_500ms"", ""y_2s"": ""pred_2s"", ""y_8s"": ""pred_8s""}"
+pipeline.py,35,targets access,"if table == ""targets"":"
+pipeline.py,36,targets access,"raise ContractViolation(f""targets read for {instrument} {date}"")"
+pipeline.py,62,sort without order guarantee,"return df.pivot(""instrument"", index=""ts"", values=list(PRED.values())).sort(""ts"")"
+models.py,8,targets access,Every model is trained on CLIPPED targets; LightGBM sees targets in bps (x1e4) for numerics only:
+models.py,22,targets access,"HORIZONS = (""y_500ms"", ""y_2s"", ""y_8s"")"

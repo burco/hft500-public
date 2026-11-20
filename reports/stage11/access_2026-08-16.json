@@ -1,0 +1,17 @@
+{
+ "date": "2026-08-16",
+ "rows": 691200,
+ "finite": true,
+ "dates_read": [
+  "2026-08-15",
+  "2026-08-16"
+ ],
+ "tables": [
+  "bbo",
+  "book",
+  "stable",
+  "trades"
+ ],
+ "n_files": 58,
+ "seconds": 11.4
+}

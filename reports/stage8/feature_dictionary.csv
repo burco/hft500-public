@@ -1,0 +1,30 @@
+feature,family,lookback_s,description
+tim_0.5s,trades,0.5,trade imbalance (buy-sell)/(buy+sell) qty over the last 0.5s
+tim_2s,trades,2.0,trade imbalance (buy-sell)/(buy+sell) qty over the last 2s
+tim_10s,trades,10.0,trade imbalance (buy-sell)/(buy+sell) qty over the last 10s
+tim_30s,trades,30.0,trade imbalance (buy-sell)/(buy+sell) qty over the last 30s
+svn_0.5s,trades,300.0,signed notional over 0.5s / its expected size from a 5 min EWMA of notional
+svn_2s,trades,300.0,signed notional over 2s / its expected size from a 5 min EWMA of notional
+svn_10s,trades,300.0,signed notional over 10s / its expected size from a 5 min EWMA of notional
+intensity_10s,trades,300.0,"trades in the last 10 s / expected count from a 5 min EWMA (activity, directionless)"
+last_side,trades,0.0,(sell age - buy age)/(sell age + buy age): +1 if the last trade was a buy
+ofi_0.5s,ofi,300.0,sampled order-flow imbalance over 0.5s / 5 min EWMA of best-level depth
+ofi_1s,ofi,300.0,sampled order-flow imbalance over 1s / 5 min EWMA of best-level depth
+ofi_2s,ofi,300.0,sampled order-flow imbalance over 2s / 5 min EWMA of best-level depth
+ofi_5s,ofi,300.0,sampled order-flow imbalance over 5s / 5 min EWMA of best-level depth
+xret_btc_0.5s,leadlag,0.5,"BTC perp past return over 0.5s, bps (NaN for the target's own coin)"
+xret_btc_2s,leadlag,2.0,"BTC perp past return over 2s, bps (NaN for the target's own coin)"
+xret_eth_0.5s,leadlag,0.5,"ETH perp past return over 0.5s, bps (NaN for the target's own coin)"
+xret_eth_2s,leadlag,2.0,"ETH perp past return over 2s, bps (NaN for the target's own coin)"
+xret_sol_0.5s,leadlag,0.5,"SOL perp past return over 0.5s, bps (NaN for the target's own coin)"
+xret_sol_2s,leadlag,2.0,"SOL perp past return over 2s, bps (NaN for the target's own coin)"
+xret_pepe_0.5s,leadlag,0.5,"PEPE perp past return over 0.5s, bps (NaN for the target's own coin)"
+xret_pepe_2s,leadlag,2.0,"PEPE perp past return over 2s, bps (NaN for the target's own coin)"
+sret_0.5s,spot,0.5,"own USDT spot past return over 0.5s, bps"
+sret_2s,spot,2.0,"own USDT spot past return over 2s, bps"
+spot_minus_perp_0.5s,spot,0.5,"sret_0.5s minus the perp's own 0.5 s return (spot moved, perp not yet)"
+basis_bps,spot,0.0,"perp mid / spot mid - 1, bps"
+basis_dev_10s,spot,60.0,basis_bps minus its EWMA (half-life 10 s)
+basis_dev_60s,spot,360.0,basis_bps minus its EWMA (half-life 60 s)
+usdc_gap_bps,stable,0.0,"USDC-quoted twin converted with stable USDCUSDT mid, vs the perp mid, bps"
+usdc_gap_dev_60s,stable,360.0,usdc_gap_bps minus its EWMA (half-life 60 s)

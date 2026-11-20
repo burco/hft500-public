@@ -1,0 +1,56 @@
+{
+ "lgb_training_rows_dates": {
+  "BTCUSDT_PERP": [
+   "2025-09-15",
+   "2026-07-14",
+   303
+  ],
+  "ETHUSDT_PERP": [
+   "2025-09-15",
+   "2026-07-14",
+   303
+  ],
+  "SOLUSDT_PERP": [
+   "2025-09-15",
+   "2026-07-14",
+   303
+  ],
+  "1000PEPEUSDT_PERP": [
+   "2025-09-15",
+   "2026-07-14",
+   303
+  ]
+ },
+ "linear_moments_dates": {
+  "BTCUSDT_PERP": [
+   "2025-09-15",
+   "2026-07-14",
+   303
+  ],
+  "ETHUSDT_PERP": [
+   "2025-09-15",
+   "2026-07-14",
+   303
+  ],
+  "SOLUSDT_PERP": [
+   "2025-09-15",
+   "2026-07-14",
+   303
+  ],
+  "1000PEPEUSDT_PERP": [
+   "2025-09-15",
+   "2026-07-14",
+   303
+  ]
+ },
+ "linear_clip_bounds_window": "training days < 2025-11-15 (stage9_report.py moments step)",
+ "target_clip_source": "meta/target_clip.parquet (official, training-set quantiles)",
+ "stage9_daily_stats_dates": [
+  "2025-09-15",
+  "2026-07-14",
+  303
+ ],
+ "tuning_folds": "monthly walk-forward inside 2025-12..2026-07 (training), 1-day embargo",
+ "validation_looks": 1,
+ "ok": true
+}

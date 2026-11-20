@@ -1,0 +1,112 @@
+[
+ {
+  "T": 1789344000000,
+  "rows": 1,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-09-14",
+  "T_utc": "2026-09-14T00:00:00"
+ },
+ {
+  "T": 1789344000500,
+  "rows": 2,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-09-14",
+  "T_utc": "2026-09-14T00:00:00.500000"
+ },
+ {
+  "T": 1789430399500,
+  "rows": 172800,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-09-14",
+  "T_utc": "2026-09-14T23:59:59.500000"
+ },
+ {
+  "T": 1789361942544,
+  "rows": 35886,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-09-14",
+  "T_utc": "2026-09-14T04:59:02.544000"
+ },
+ {
+  "T": 1789422140392,
+  "rows": 156281,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-09-14",
+  "T_utc": "2026-09-14T21:42:20.392000"
+ },
+ {
+  "T": 1789383675532,
+  "rows": 79352,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-09-14",
+  "T_utc": "2026-09-14T11:01:15.532000"
+ },
+ {
+  "T": 1789344026346,
+  "rows": 53,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-09-14",
+  "T_utc": "2026-09-14T00:00:26.346000"
+ },
+ {
+  "T": 1789409893151,
+  "rows": 131787,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-09-14",
+  "T_utc": "2026-09-14T18:18:13.151000"
+ },
+ {
+  "T": 1789344000250,
+  "rows": 1,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-09-14",
+  "T_utc": "2026-09-14T00:00:00.250000"
+ },
+ {
+  "T": 1789344000500,
+  "rows": 2,
+  "ok": true,
+  "mismatches": 0,
+  "bad_columns": [],
+  "first_bad_ts": null,
+  "variant": "honest",
+  "date": "2026-09-14",
+  "T_utc": "2026-09-14T00:00:00.500000"
+ }
+]
